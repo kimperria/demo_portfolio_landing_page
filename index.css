@@ -159,9 +159,26 @@ nav ul li a{
 form{
     width: 50%;
     border: 1px solid red;
+    height: 80%;
     position: relative;
     left: 20%;
     top: 8%;
+}
+form input{
+    width: 80%;
+}
+#message{
+    width: 20%;
+    background-color: #d2aa0b;
+    height: 8%;
+    border: 1px solid #d2aa0b;
+    color: #03163e;
+    border-radius: 30px;
+    margin-top: 2%;
+}
+#message a{
+    text-decoration: none;
+    color: #03163e;
 }
 /* containerfive end */
 /* foooter */
@@ -170,13 +187,21 @@ footer{
     height: 50px;
     background-color: #03163e;
     line-height: 50px;
+    display: flex;
+    color: #d2aa0b;
 }
-footer ul{
+.socialicons ul{
     list-style: none;
-    display: inline-flex;
-    margin-left: 10%;
+    margin-left: 70%;
 }
-footer ul li a{
+.socialicons ul a{
     text-decoration: none;
     color: #d2aa0b;
+    padding-left: 20px;
+}
+#footerinfo{
+    margin-left: 10%;
+}
+#outro{
+    margin-left: 35%;
 }
