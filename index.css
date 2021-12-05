@@ -15,13 +15,19 @@ nav{
 }
 #logo{
     margin-left: 60px;
+    font-size: xx-large;
 }
 nav ul{
     list-style: none;
     display: flex;
+    font-size: larger;
 }
 nav ul li a{
     text-decoration: none;
+    color: #d2aa0b;
+}
+nav ul li a:hover{
+    text-decoration: underline;
     color: #d2aa0b;
 }
 /* nav end */
