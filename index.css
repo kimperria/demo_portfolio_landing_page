@@ -69,7 +69,7 @@ nav ul li a{
 
 /* container two start */
 .containertwo{
-    border: 2px solid red;
+    border: 1px solid #03163e;
     height: 600px;
     background-color: #03163e;
     padding-top: 1%;
@@ -103,4 +103,28 @@ nav ul li a{
     margin-top: 2%;
     padding-left: 15%;
 
+}
+/* container two end */
+
+/* container three start */
+.containerthree{
+    border: 1px solid #fff;
+    height: 300px;
+    text-align: center;
+    padding-top: 1%;
+}
+.containerthree h1{
+    color: #d2aa0b;
+}
+.contentthree{
+    display: flex;
+    justify-content: space-evenly;
+}
+.projectcards{
+    border: 1px solid blue;
+    height: 200px;
+    width: 25%;
+    background-color: #03163e;
+    color: #d2aa0b;
+    margin-top: 1%;
 }
