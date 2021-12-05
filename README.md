@@ -1,11 +1,18 @@
 # Kimperria Portfolio 
 
-This is a portfolio landing page website for a software development.
+My webdev portfolio webpage. 
 
-## Description
+## Get Started
+To get a local copy to your machine;
 
+### Requirements
+* A computer tablet or mobile phone.
+* Internet and or power availability and access.
 
-## Technologies Used 
+### Setup
+* Download or clone files from this repo.
+
+## Developed with
 * HTML for structure.
 * CSS for styling.
 
@@ -14,6 +21,8 @@ This is a portfolio landing page website for a software development.
 Author: John Kimani
 
 Slack profile: [John Kimani](https://app.slack.com/client/T0101L740P4/C010GLANY3A)
+
+Gmail: kimwaweru100@gmail.com
 
 
 ## Contributors
