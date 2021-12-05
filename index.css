@@ -165,3 +165,18 @@ form{
 }
 /* containerfive end */
 /* foooter */
+footer{
+    border: 1px solid #03163e;
+    height: 50px;
+    background-color: #03163e;
+    line-height: 50px;
+}
+footer ul{
+    list-style: none;
+    display: inline-flex;
+    margin-left: 10%;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #d2aa0b;
+}
