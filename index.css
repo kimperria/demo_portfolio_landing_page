@@ -16,3 +16,49 @@
     color: #d2aa0b;
 }
 /* nav end */
+
+/* home start */
+.container{
+    border: 1px solid black;
+    height: 600px;
+    background-image: url(images/home-background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* overlay */
+.contentone{
+    height: 250px;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+.intro{
+    height: 200px;
+    margin-top: 1%;
+    color: #d2aa0b;
+}
+.quote{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 30%;
+    height: 100px;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+#hireme{
+    border: 1px solid #d2aa0b;
+    border-radius: 20px;
+    background-color: #d2aa0b;
+    height: 6%;
+    width: 8%;
+    position: relative;
+    top: 50px;
+    left: 40%;
+}
+#hireme a{
+    color: #03163e;
+}
+/* home end */
+
+/* about me start */
