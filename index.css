@@ -51,6 +51,12 @@ nav ul li a{
     color: white;
     font-size: 40px;
 }
+.quote p{
+    padding-top: 60px;
+}
+.intro{
+    margin-left: 5%;
+}
 #hireme{
     color: #03163e;
     width: 10%;
@@ -95,8 +101,14 @@ nav ul li a{
     border-radius: 100px;
     margin-left: 18%;
 }
+#line{
+    margin-top: 10%;
+}
 .aboutcard h3{
     margin-top: 10%;
+    padding-left: 25%;
+}
+.aboutcard h4{
     padding-left: 25%;
 }
 .aboutcard p{
