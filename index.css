@@ -143,6 +143,7 @@ nav ul li a:hover{
     height: 600px;
     text-align: center;
     padding-top: 1%;
+    font-size: larger;
 }
 .containerthree h1{
     color: #d2aa0b;
@@ -150,15 +151,32 @@ nav ul li a:hover{
 .contentthree{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 10%;
+    margin-top: 5%;
+    border: none;
 }
 .projectcards{
     border: 1px solid blue;
-    height: 200px;
-    width: 25%;
+    height: 280px;
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.3);
+    width: 280px;
     background-color: #03163e;
     color: #d2aa0b;
-    margin-top: 1%;
+}
+#explore{
+    color: #03163e;
+    background-color: #d2aa0b;
+    width: 40%;
+    font-size: 20px;
+    border: 1px solid #d2aa0b;
+    border-radius: 30px;
+    height: 30px;
+    margin-top: 5%;
+}
+#explore a{
+    text-decoration: none;
+}
+#explore a:hover{
+    color: #fff;
 }
 /* container three end */
 /* container four start */
