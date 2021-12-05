@@ -1,64 +1,67 @@
-/* nav start */
-.navbar-nav{
-    margin-left: 40rem;
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
-.nav-item{
-    padding-left: 70px;
-}
-.navbar{
+/* body */
+/* nav */
+nav{
+    border: 1px solid #03163e;
+    height: 60px;
+    display: flex;
+    line-height: 60px;
     background-color: #03163e;
     color: #d2aa0b;
 }
-.navbar-brand{
-    color: #d2aa0b;
+#logo{
+    margin-left: 60px;
 }
-.nav-link{
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li a{
+    text-decoration: none;
     color: #d2aa0b;
 }
 /* nav end */
 
-/* home start */
-.container{
-    border: 1px solid black;
+/* container one */
+.containerone{
+    border: 1px solid #03163e;
     height: 600px;
     background-image: url(images/home-background-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
-/* overlay */
 .contentone{
-    height: 250px;
-    margin-top: 10%;
     display: flex;
-    justify-content: center;
+    margin-top: 6%;
+    height: 280px;
 }
 .intro{
-    height: 200px;
-    margin-top: 1%;
+    line-height: 50px;
+    font-size: 24px;
     color: #d2aa0b;
 }
 .quote{
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    background-color: rgba(0, 0, 0, 0.3);
     color: white;
-    width: 30%;
-    height: 100px;
-    margin-left: 5%;
-    margin-top: 4%;
+    font-size: 40px;
 }
 #hireme{
-    border: 1px solid #d2aa0b;
-    border-radius: 20px;
+    color: #03163e;
+    width: 10%;
+    height: 40px;
     background-color: #d2aa0b;
-    height: 6%;
-    width: 8%;
+    border: 1px solid #d2aa0b;
+    border-radius: 30px;
     position: relative;
-    top: 50px;
-    left: 40%;
+    top: 80px;
+    left: 45%;
 }
 #hireme a{
-    color: #03163e;
+    text-decoration: none;
 }
-/* home end */
-
-/* about me start */
