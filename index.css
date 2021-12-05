@@ -1,0 +1,18 @@
+/* nav start */
+.navbar-nav{
+    margin-left: 40rem;
+}
+.nav-item{
+    padding-left: 70px;
+}
+.navbar{
+    background-color: #03163e;
+    color: #d2aa0b;
+}
+.navbar-brand{
+    color: #d2aa0b;
+}
+.nav-link{
+    color: #d2aa0b;
+}
+/* nav end */
