@@ -186,15 +186,19 @@ nav ul li a:hover{
     text-align: center;
     background-color: #03163e;
     color: #d2aa0b;
+    line-height: 40px;
 }
 .contentfour{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 .testcard{
     border: 1px solid green;
     width: 20%;
+    background-color: #fff;
+    font-size: larger;
+    display: flex;
 }
 /* container four end */
 /* container five start */
