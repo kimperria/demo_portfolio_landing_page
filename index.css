@@ -35,7 +35,7 @@ nav ul li a:hover{
 /* container one */
 .containerone{
     border: 1px solid #03163e;
-    height: 600px;
+    height: 820px;
     background-image: url(images/home-background-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,22 +43,30 @@ nav ul li a:hover{
 }
 .contentone{
     display: flex;
-    margin-top: 6%;
+    margin-top: 10%;
     height: 280px;
 }
 .intro{
-    line-height: 50px;
+    line-height: 80px;
     font-size: 24px;
     color: #d2aa0b;
+    width: 40%;
+    padding-top: 5%;
 }
 .quote{
     border: none;
     background-color: rgba(0, 0, 0, 0.3);
     color: white;
     font-size: 40px;
+    width: 40%;
+    margin-left: 5%;
 }
 .quote p{
-    padding-top: 60px;
+    padding-top: 30px;
+    line-height: 80px;
+}
+#author{
+    margin-left: 70%;
 }
 .intro{
     margin-left: 5%;
@@ -71,11 +79,13 @@ nav ul li a:hover{
     border: 1px solid #d2aa0b;
     border-radius: 30px;
     position: relative;
-    top: 80px;
-    left: 45%;
+    top: 100px;
+    left: 5%;
 }
 #hireme a{
     text-decoration: none;
+    color: #03163e;
+    font-size: 30px;
 }
 /* container one end */
 
