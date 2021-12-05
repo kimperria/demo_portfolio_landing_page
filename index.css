@@ -274,6 +274,9 @@ footer{
     color: #d2aa0b;
     padding-left: 20px;
 }
+.socialicons ul a:hover{
+    text-decoration: underline;
+}
 #footerinfo{
     margin-left: 10%;
 }
