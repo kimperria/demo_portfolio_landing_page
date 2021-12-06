@@ -3,15 +3,20 @@
     padding: 0;
     width: 100%;
 }
+
 /* body */
 /* nav */
-nav{
+.nav{
     border: 1px solid #03163e;
     height: 60px;
     display: flex;
     line-height: 60px;
     background-color: #03163e;
     color: #d2aa0b;
+}
+.nav a{
+    color: #d2aa0b;
+    font-size: larger;
 }
 #logo{
     margin-left: 60px;
@@ -33,6 +38,14 @@ nav ul li a:hover{
 /* nav end */
 
 /* container one */
+.rowone{
+    border: none;
+    height: 450px;
+    width: 99%;
+    position: relative;
+    left: 15px;
+    top: 190px;
+}
 .containerone{
     border: 1px solid #03163e;
     height: 820px;
@@ -48,10 +61,11 @@ nav ul li a:hover{
 }
 .intro{
     line-height: 80px;
-    font-size: 24px;
+    font-size: 20px;
     color: #d2aa0b;
     width: 40%;
-    padding-top: 5%;
+    border: none;
+    margin-left: 5%;
 }
 .quote{
     border: none;
@@ -59,7 +73,7 @@ nav ul li a:hover{
     color: white;
     font-size: 40px;
     width: 40%;
-    margin-left: 5%;
+    margin-left: 10%;
 }
 .quote p{
     padding-top: 30px;
@@ -68,9 +82,6 @@ nav ul li a:hover{
 #author{
     margin-left: 70%;
 }
-.intro{
-    margin-left: 5%;
-}
 #hireme{
     color: #03163e;
     width: 10%;
@@ -78,14 +89,12 @@ nav ul li a:hover{
     background-color: #d2aa0b;
     border: 1px solid #d2aa0b;
     border-radius: 30px;
-    position: relative;
-    top: 100px;
-    left: 5%;
+    margin-top: 20%;
+    margin-left: 5%;
 }
 #hireme a{
     text-decoration: none;
     color: #03163e;
-    font-size: 30px;
 }
 /* container one end */
 
