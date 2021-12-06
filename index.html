@@ -18,38 +18,19 @@
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                        <a class="nav-link active"  aria-current="page" href="#">Home</a>
-                        </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Project</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Testimonial</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                    </ul>
-                </div>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                          <a class="nav-link" href="#containertwo">About</a>
+                          <a class="nav-link" href="#containerthree">Projects</a>
+                          <a class="nav-link" href="#containerfour">Testimonials</a>
+                          <a class="nav-link" href="#containerfive">Contacts</a>
+                        </div>
+                    </div>
             </div>
-        <!-- <label id="logo">DevKim</label>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#containertwo">About</a></li>
-            <li><a href="#containerthree">Project</a></li>
-            <li><a href="#containerfour">Testimonials</a></li>
-            <li><a href="#containerfive">Contact</a></li>
-        </ul> -->
         </nav>
     <!-- nav end -->
+
     <!-- container one start -->
         <div class="containerone">
             <div class="row rowone">
@@ -69,134 +50,142 @@
             </div>
             <button id="hireme"><a href="mailto:kimwaweru100@gmail.com">Book Me!</a></button>
         </div> 
-    </div>
+    <!-- container one  -->
 
-    <!-- container one end -->
-     <!-- coontainer two start  -->
-     <div class="containertwo" id="containertwo">
-         <h1 id="me">About Me</h1> <br>
-         <p id="know">Get to know me,my skills and my previous work experience.</p>
-         <div class="contenttwo">
-            <div class="aboutcard">
-                <img src="images/skills.jpg" alt="skills icon">
-                <h3>$ sudo skills</h3>
-                <p>
+    <!-- coontainer two start  -->
+        <div class="containertwo" id="containertwo">
+            <h1 id="me">About Me</h1> <br>
+            <p id="know">Get to know me,my skills and my previous work experience.</p>
+            <div class="contenttwo">
+                <div class="row rowtwo">
+                    <div class="card">
+                        <img src="images/skills.jpg" alt="skills icon" id="skills">
+                        <h3>$ sudo skills</h3>
+                        <p>
                     proficient in: "HTML and CSS" <br>
                     keen interest in: "Javascript" <br>
                     passionate about: "UI/UX design"
-                </p>
-             </div>
-             <div class="aboutcard">
-                <img id="profile" src="images/kim_1.jpg" alt="kim">
-                <hr id="line">
-                <h3>$ sudo about kim</h3>
-                <p>
-                    name: "Kimani John Waweru" <br>
-                    alt: "kimperria" <br>
-                    location: "Nairobi, Kenya" <br>
-                    occupation: "Software Developer" <br>
-                    education: Moringa School
-                </p>
-             </div>
-             <div class="aboutcard">
-                <img src="images/workexperience.jpg" alt="">
-                <h3>$ sudo work experience</h3>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur <br> adipisicing elit. Ea quaerat optio <br> accusamus saepe est nisi adipisci <br> sit tenetur exercitationem, ipsa <br> consequatur libero quis culpa, <br> facere labore unde officiis ut iste.
-                </p>
-             </div>
-         </div>
-     </div>
-     <!-- container two end -->
-     <!-- container three start -->
-     <div class="containerthree" id="containerthree">
-         <h1>Projects</h1>
-         <p style="color: #d2aa0b;">
-             Explore sample projects on my github
-         </p>
-         <div class="contentthree">
-             <div class="projectcards">
-                
-                 <h3>Mahali Pazuri</h3>
-                 <p>This is a sample website project for a restraurant</p>
-                 <button id="explore"><a href="">Explore</a></button>
-             </div>
-             <div class="projectcards">
-                 
-                <h3>Profesional's Hub</h3>
-                <p>This project is about a social nextwork for professionals</p>
-                <button id="explore"><a href="">Explore</a></button>
-            </div>
-            <div class="projectcards">
-            
-                <h3>SokoYetu</h3>
-                <p>An online webstore for agricutural produce</p>
-                <button id="explore"><a href="">Explore</a></button>
-            </div>
-            <div class="projectcards">
+                        </p>
+                    </div>
 
-                <h3>Pet</h3>
-                <p>Sample website for a cat vet service provider</p>
-                <button id="explore"><a href="">Explore</a></button>
+                    <div class="card">
+                        <img src="images/kim_1.jpg" alt="profile picture" id="skills">
+                        <h3>$ sudo about Kim</h3>
+                        <p>
+                            name: "Kimani John Waweru" <br>
+                            alt: "kimperria" <br>
+                            location: "Nairobi, Kenya" <br>
+                            occupation: "Software Developer" <br>
+                            education: Moringa School
+                                </p>
+                    </div>
+                    <div class="card">
+                        <img src="images/workexperience.jpg" alt="work experience" id="skills">
+                        <h3>$ work experience</h3>
+                        <p>
+                    proficient in: "HTML and CSS" <br>
+                    keen interest in: "Javascript" <br>
+                    passionate about: "UI/UX design"
+                        </p>
+                    </div>
+
+                </div>
             </div>
-         </div>
+        </div>
+    <!-- container two end -->
 
-
-     </div>
-     <!-- container three end -->
-     <!-- container four start -->
+         <!-- container three start -->
+         <div class="containerthree" id="containerthree">
+            <h1>Projects</h1>
+            <p style="color: #d2aa0b;">
+                Explore sample projects on my github
+            </p>
+            <div class="contentthree">
+                <div class="projectcards">
+                   
+                    <h3>Mahali Pazuri</h3>
+                    <p>This is a sample website project for a restraurant</p>
+                    <button id="explore"><a href="">Explore</a></button>
+                </div>
+                <div class="projectcards">
+                    
+                   <h3>Profesional's Hub</h3>
+                   <p>This project is about a social nextwork for professionals</p>
+                   <button id="explore"><a href="">Explore</a></button>
+               </div>
+               <div class="projectcards">
+               
+                   <h3>SokoYetu</h3>
+                   <p>An online webstore for agricutural produce</p>
+                   <button id="explore"><a href="">Explore</a></button>
+               </div>
+               <div class="projectcards">
+   
+                   <h3>Pet</h3>
+                   <p>Sample website for a cat vet service provider</p>
+                   <button id="explore"><a href="">Explore</a></button>
+               </div>
+            </div>
+   
+   
+        </div>
+        <!-- container three end -->
+             <!-- container four start -->
      <div class="containerfour" id="containerfour">
-         <h1>Testimonials</h1>
-         <h3>Client Reviews Sections</h3>
-         <div class="contentfour">
-             <div class="testcard">
-                 <img src="images/manuel.jpg" style="width: 25%;" alt="">
-                <p>
-                    <q>Stylish projects and real time delivery</q> <br> ~ Manuel
-                </p> 
-             </div>
-             <div class="testcard">
-                 <img src="images/tracy.jpg" style="width: 25%;" alt="jenny">
-                <p>
-                    <q>Open communication channels and elegant designs</q> ~ Jenny
-                </p>
+        <h1>Testimonials</h1>
+        <h3>Client Reviews Sections</h3>
+        <div class="contentfour">
+            <div class="testcard">
+                <img src="images/manuel.jpg" style="width: 25%;" alt="">
+               <p>
+                   <q>Stylish projects and real time delivery</q> <br> ~ Manuel
+               </p> 
             </div>
-         </div>
-     </div>
-     <!-- containerfour end -->
-     <!-- container five start -->
-     <div class="containerfive" id="containerfive">
-         <h1>Contact Me</h1>
-         <p id="reach">Leave me a message and will sure get back to you.</p>
-         <form>
-             <label for="name">Name:</label> 
-             <input type="text" placeholder="John Doe"> <br>
-             <label for="email">Email:</label>
-             <input type="text" placeholder="johndoe@gmail.com"> <br>
-             <label for="location">Location:</label>
-             <input type="text" placeholder="Nairobi, Kenya"> <br>
-             <label for="message">Message:</label>
-             <input id="enter" type="text" placeholder="Your Message"> <br>
-             <button id="message"><a href="">Send Message</a></button>
-         </form>
-         <p id="tosocial">Follow||Share||Connect with me on social media</p>
-     </div>
-     <!-- container five end -->
-     <!-- footer -->
-     <footer>
-         <p id="footerinfo">Copyright Reserved 2021</p>
-         <div class="socialicons">
-            <ul>
-                <img src="" alt=""><a href="https://github.com/John-Kimani">Github</a></img>
-                <img src="" alt=""><a href="">Linked in</a></img>
-                <img src="" alt=""><a href="">Twitter</a></img>
-                <img src="" alt=""><a href="">Gmail</a></img>
-            </ul>
-         </div>
-         <p id="outro">Design by: Kimperria</p>
-
-    </footer>
+            <div class="testcard">
+                <img src="images/tracy.jpg" style="width: 25%;" alt="jenny">
+               <p>
+                   <q>Open communication channels and elegant designs</q> ~ Jenny
+               </p>
+           </div>
+        </div>
     </div>
+    <!-- containerfour end -->
+         <!-- container five start -->
+         <div class="containerfive" id="containerfive">
+            <h1>Contact Me</h1>
+            <p id="reach">Leave me a message and will sure get back to you.</p>
+            <form>
+                <label for="name">Name:</label> 
+                <input type="text" placeholder="John Doe"> <br>
+                <label for="email">Email:</label>
+                <input type="text" placeholder="johndoe@gmail.com"> <br>
+                <label for="location">Location:</label>
+                <input type="text" placeholder="Nairobi, Kenya"> <br>
+                <label for="message">Message:</label>
+                <input id="enter" type="text" placeholder="Your Message"> <br>
+                <button id="message"><a href="">Send Message</a></button>
+            </form>
+            <p id="tosocial">Follow||Share||Connect with me on social media</p>
+        </div>
+        <!-- container five end -->
+        <!-- footer -->
+        <footer>
+            <p id="footerinfo">Copyright Reserved 2021</p>
+            <div class="socialicons">
+               <ul>
+                   <img src="" alt=""><a href="https://github.com/John-Kimani">Github</a></img>
+                   <img src="" alt=""><a href="">Linked in</a></img>
+                   <img src="" alt=""><a href="">Twitter</a></img>
+                   <img src="" alt=""><a href="">Gmail</a></img>
+               </ul>
+            </div>
+            <p id="outro">Design by: Kimperria</p>
+   
+       </footer>
+       <!-- footer end -->
 
+
+    </div> 
+    <!-- container -->
 </body>
 </html>
