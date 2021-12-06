@@ -222,10 +222,11 @@ nav ul li a:hover{
     display: flex;
 }
 /* container four end */
+
 /* container five start */
 .containerfive{
     border: 2px solid green;
-    height: 600px;
+    height: 700px;
 }
 .containerfive h1{
     text-align: center;
@@ -238,15 +239,16 @@ nav ul li a:hover{
     line-height: 30px;
 }
 form{
-    width: 50%;
+    width: 60%;
     border: 1px solid #03163e;
-    height: 60%;
+    height: 520px;
     position: relative;
-    left: 25%;
+    left: 20%;
     background-color: #03163e;
     color: #d2aa0b;
     top: 1%;
     font-size: 17px;
+    padding: 10px;
 }
 input{
     width: 99%;
@@ -276,31 +278,37 @@ input{
     top: 17%;
     left: 40%;
 }
+#entermessage{
+    height: 110px;
+}
+#submit{
+    background-color: #d2aa0b;
+    color: #03163e;
+}
 /* containerfive end */
 /* foooter */
 footer{
     border: 1px solid #03163e;
-    height: 50px;
-    background-color: #03163e;
-    line-height: 50px;
     display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    padding-top: 1%;
+    background-color: #03163e;
     color: #d2aa0b;
 }
-.socialicons ul{
-    list-style: none;
-    margin-left: 70%;
-}
-.socialicons ul a{
-    text-decoration: none;
-    color: #d2aa0b;
-    padding-left: 20px;
-}
-.socialicons ul a:hover{
-    text-decoration: underline;
-}
-#footerinfo{
+.socialicons{
+    width: 25%;
     margin-left: 10%;
 }
-#outro{
-    margin-left: 35%;
+.socialicons a{
+    color: #d2aa0b;
+}
+.footerinfo{
+    margin-left: 10%;
+    width: 20%;
+}
+.outro{
+    margin-left: 15%; 
+    width: 15%;
 }
